@@ -1,0 +1,24 @@
+{
+  "name": "github-leaderboard",
+  "version": "1.0.0",
+  "description": "github leaderboard for bitbar",
+  "main": "Plugins/leaderboard.5m.coffee",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "dotenv": "^2.0.0",
+    "github": "^0.2.4",
+    "moment": "^2.12.0",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "bitbar"
+  ],
+  "author": "SparSio",
+  "license": "ISC"
+}
