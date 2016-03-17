@@ -14,9 +14,9 @@ Q         = require 'q'
 moment    = require 'moment'
 
 dotenv.config { path: __dirname + '/.env' }
-github_user                = process.env.GITHUB_USER
-github_token               = process.env.GITHUB_TOKEN
-github_org                 = process.env.GITHUB_ORG
+github_user  = process.env.GITHUB_USER
+github_token = process.env.GITHUB_TOKEN
+github_org   = process.env.GITHUB_ORG
 
 github = new GitHubApi
     version: "3.0.0",
