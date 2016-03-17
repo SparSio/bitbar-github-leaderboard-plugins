@@ -1,0 +1,14 @@
+# Emacs
+*~
+
+# OS X
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+#node
+Plugins/github_leaderboard/node_modules
+
+#env
+Plugins/github_leaderboard/.env
